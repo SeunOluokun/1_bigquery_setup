@@ -27,3 +27,5 @@ LIMIT 10;
 What I Learned
 	•	How to access and query public datasets in BigQuery
 	•	How to fully qualify table names across projects
+
+![Results Screenshot](./bigquery_results.png)
