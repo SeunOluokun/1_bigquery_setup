@@ -5,7 +5,7 @@ My first BigQuery public dataset project — querying COVID-19 data for Ireland
 This is my first step towards becoming an Analytics Engineer.
 
 ## Dataset
-**Source:** `bigquery-public-data.covid19_open_data.covid19_open_data`
+**Source:** `bigquery-public-data.covid19_open_data_eu.covid19_open_data`
 
 ## SQL Query
 ```sql
@@ -14,7 +14,7 @@ SELECT
   date,
   SUM(cumulative_confirmed) AS total_cases
 FROM
-  `bigquery-public-data.covid19_open_data.covid19_open_data`
+  `bigquery-public-data.covid19_open_data_eu.covid19_open_data`
 WHERE
   country_name = 'Ireland'
 GROUP BY
